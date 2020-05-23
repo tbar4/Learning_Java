@@ -151,7 +151,7 @@ The word console is an old computer term that refers to the text entry and displ
 <pre><code>
 1. public class Welcome {
 2.    public static void main(String[] args) {
-3.
+3.    // This is a comment
 4.        System.out.println("Welcome to Java!");
 5.    }
 6. }

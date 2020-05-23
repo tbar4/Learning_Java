@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Ch_02/calculate_area.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_02_Elementary_Programming/calculate_area.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch_02/calculate_area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_02_Elementary_Programming/calculate_area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_02_Elementary_Programming/Elementary Programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch_01_Introduction_to_Computers_Programs_and_Java/Introduction to Computers, Programs, and Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_01_Introduction_to_Computers_Programs_and_Java/Introduction to Computers, Programs, and Java.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cHLGctAikgoFXlpeT8PQ6qcPR8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -88,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590180478174</updated>
-      <workItem from="1590180482519" duration="8344000" />
+      <workItem from="1590180482519" duration="9103000" />
     </task>
     <servers />
   </component>
