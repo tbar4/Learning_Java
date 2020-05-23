@@ -1,4 +1,4 @@
-package Ch_02;
+package Ch_02_Elementary_Programming;
 
 import java.util.Scanner;
 

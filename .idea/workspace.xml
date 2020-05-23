@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="" />
+    <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Ch_02/calculate_area.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_02_Elementary_Programming/calculate_area.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch_02/calculate_area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_02_Elementary_Programming/calculate_area.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +29,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cHLGctAikgoFXlpeT8PQ6qcPR8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -47,7 +54,7 @@
   </component>
   <component name="RunManager">
     <configuration name="calculate_area" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_02.calculate_area" />
+      <option name="MAIN_CLASS_NAME" value="Ch_02_Elementary_Programming.calculate_area" />
       <module name="Learning_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590180478174</updated>
-      <workItem from="1590180482519" duration="7980000" />
+      <workItem from="1590180482519" duration="8344000" />
     </task>
     <servers />
   </component>
