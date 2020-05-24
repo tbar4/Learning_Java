@@ -190,4 +190,6 @@ The program must satisfy the following requirements:
 
 The output is the monthly payment and total payment, which can be obtained using the following formulas:
 
-$monthlyPayment = /frac{1}{2}
+\begin{equation}
+E=m
+\end{equation}
