@@ -48,6 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -147,7 +148,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590180478174</updated>
       <workItem from="1590180482519" duration="16917000" />
-      <workItem from="1590292066759" duration="266000" />
+      <workItem from="1590292066759" duration="438000" />
+      <workItem from="1590292529983" duration="482000" />
     </task>
     <servers />
   </component>
@@ -179,6 +181,10 @@
     </state>
     <state width="845" height="211" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590292036425" />
     <state width="677" height="211" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590186370961" />
+    <state x="382" y="72" key="SettingsEditor" timestamp="1590292683217">
+      <screen x="0" y="23" width="1440" height="801" />
+    </state>
+    <state x="382" y="72" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1590292683217" />
     <state x="661" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1590269832357">
       <screen x="0" y="23" width="1440" height="801" />
     </state>

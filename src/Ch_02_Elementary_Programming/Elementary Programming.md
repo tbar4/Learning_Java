@@ -190,6 +190,20 @@ The program must satisfy the following requirements:
 
 The output is the monthly payment and total payment, which can be obtained using the following formulas:
 
-\begin{equation}
-E=m
-\end{equation}
+monthlyPayment = (loanAmount * monthlyInterestRate) / 1 - (1 - (1 + monthlyInterestRate)^(numberOfYears*12)) 
+
+totalPayment = monthlyPayment * numberOfYears * 12
+
+### Step 3: System Design
+
+During system design, you identify the steps in the program.
+
+1. Prompt the user to enter the annual interest rate, the number of years, and the loan amount.
+2. The input for the annual interest rate is a number in percent format, such as 4.5%. The program needs to convert it into a decimal by dividing it by 100. To obtain the monthly interest rate from the annual interest rate, divide it by 12, since a year has 12 months. So, to obtain the monthly interest rate in decimal format, you need to divide the annual interest rate in percentage by 1200. For example, if the annual interest rate is 4.5%, then the monthly interest rate is 4.5/1200 = 0.00375.
+3. Compute the monthly payment using the preceding formula.
+4. Compute the total payment, which is the monthly payment multiplied by 12 and multiplied by the number of years.
+5. Display the monthly payment and total payment.
+
+### Step 4: Implementation
+
+Implementation is also known as coding (writing the code). In the formula, you have to compute (1 + monthlyInterestRate)numberOfYears * 12, which can be obtained using `Math.pow(1 + monthlyInterestRate, numberOfYears * 12)`.
