@@ -142,3 +142,19 @@ In Java, an assignment statement is essentially an expression that evaluates to 
 ## Named Constants
 
 A named constant is an identifier that represents a permanent value. The value of a variable may change during the execution of a program, but a *named constant*, or simply *constant*, represents permanent data that never changes. 
+
+## Displaying the Current Time
+
+You can invoke `System.currentTimeMillis()` to return the current time.
+
+The `currentTimeMillis` method in the `System` class returns the current time in mil- liseconds elapsed since midnight, January 1, 1970 GMT. This time is known as the UNIX epoch. The epoch is the point when time starts, and 1970 was the year when the UNIX operating system was formally introduced.
+
+## Numeric Type Conversions
+
+Floating-point numbers can be converted into integers using explicit casting. If an integer and a floating-point number are involved in a binary operation, Java automatically converts the integer to a floating-point value. So, 3 * 4.5 is same as 3.0 * 4.5.
+You can always assign a value to a numeric variable whose type supports a larger range of values; thus, for instance, you can assign a *long* value to a *float* variable. You cannot, however, assign a value to a variable of a type with a smaller range unless you use type casting. Casting is an operation that converts a value of one data type into a value of another data type. Casting a type with a small range to a type with a larger range is known as widening a type. Casting a type with a large range to a type with a smaller range is known as narrowing a type. Java will automatically widen a type, but you must narrow a type explicitly.
+
+The syntax for casting a type is to specify the target type in parentheses, followed by the variable’s name or the value to be cast. For example, the following statement:
+> `System.out.println((int)1.7);`
+
+displays 1
