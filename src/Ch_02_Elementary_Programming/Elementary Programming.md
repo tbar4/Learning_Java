@@ -207,3 +207,7 @@ During system design, you identify the steps in the program.
 ### Step 4: Implementation
 
 Implementation is also known as coding (writing the code). In the formula, you have to compute (1 + monthlyInterestRate)numberOfYears * 12, which can be obtained using `Math.pow(1 + monthlyInterestRate, numberOfYears * 12)`.
+
+### Step 5: Testing
+
+After the program is implemented, test it with some sample input data and verify whether the output is correct. 
