@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch_03_Selections/ComputeTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_03_Selections/ChineseZodiac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_03_Selections/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_03_Selections/Lottery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_03_Selections/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_03_Selections/TestBooleanOperators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ch_03_Selections/Selections.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_03_Selections/Selections.md" afterDir="false" />
     </list>
@@ -50,9 +54,9 @@
       <recent name="$PROJECT_DIR$/src/Ch_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ComputeTax">
-    <configuration name="AdditionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.AdditionQuiz" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="ChineseZodiac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.ChineseZodiac" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
@@ -64,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeAndInterpretBMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.ComputeAndInterpretBMI" />
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.LeapYear" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +81,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeTax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.ComputeTax" />
+    <configuration name="Lottery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.Lottery" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleIfDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.SimpleIfDemo" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.Test" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtractionQuiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.SubtractionQuiz" />
+    <configuration name="TestBooleanOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.TestBooleanOperators" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
@@ -118,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ComputeTax" />
-        <item itemvalue="Application.ComputeAndInterpretBMI" />
-        <item itemvalue="Application.SubtractionQuiz" />
-        <item itemvalue="Application.SimpleIfDemo" />
-        <item itemvalue="Application.AdditionQuiz" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.ChineseZodiac" />
+        <item itemvalue="Application.Lottery" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.TestBooleanOperators" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +144,8 @@
       <workItem from="1590292066759" duration="438000" />
       <workItem from="1590292529983" duration="646000" />
       <workItem from="1590426415895" duration="1208000" />
-      <workItem from="1590526493284" duration="8877000" />
+      <workItem from="1590526493284" duration="8924000" />
+      <workItem from="1590601988164" duration="3661000" />
     </task>
     <servers />
   </component>
@@ -152,54 +157,63 @@
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="369" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801@0.23.1440.801" timestamp="1590273540350" />
-    <state width="1103" height="496" key="GridCell.Tab.0.bottom" timestamp="1590536850248">
+    <state width="1376" height="404" key="GridCell.Tab.0.bottom" timestamp="1590605701799">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.0.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325662" />
     <state width="878" height="211" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
     <state width="677" height="211" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590186370961" />
-    <state width="1103" height="496" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850248" />
-    <state width="1103" height="496" key="GridCell.Tab.0.center" timestamp="1590536850248">
+    <state width="1376" height="404" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590605701799" />
+    <state width="1376" height="404" key="GridCell.Tab.0.center" timestamp="1590605701798">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.0.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325662" />
     <state width="878" height="211" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
     <state width="677" height="211" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590186370960" />
-    <state width="1103" height="496" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850248" />
-    <state width="1103" height="496" key="GridCell.Tab.0.left" timestamp="1590536850247">
+    <state width="1376" height="404" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590605701798" />
+    <state width="1376" height="404" key="GridCell.Tab.0.left" timestamp="1590605701798">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.0.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325661" />
     <state width="878" height="211" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
     <state width="677" height="211" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590186370960" />
-    <state width="1103" height="496" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850247" />
-    <state width="1103" height="496" key="GridCell.Tab.0.right" timestamp="1590536850248">
+    <state width="1376" height="404" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590605701798" />
+    <state width="1376" height="404" key="GridCell.Tab.0.right" timestamp="1590605701799">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.0.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325662" />
     <state width="878" height="211" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
     <state width="677" height="211" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590186370961" />
-    <state width="1103" height="496" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850248" />
-    <state width="1103" height="496" key="GridCell.Tab.1.bottom" timestamp="1590536850097">
+    <state width="1376" height="404" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590605701799" />
+    <state width="1103" height="496" key="GridCell.Tab.1.bottom" timestamp="1590599325664">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.1.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325664" />
     <state width="1103" height="496" key="GridCell.Tab.1.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850097" />
-    <state width="1103" height="496" key="GridCell.Tab.1.center" timestamp="1590536850096">
+    <state width="1103" height="496" key="GridCell.Tab.1.center" timestamp="1590599325663">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.1.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325663" />
     <state width="1103" height="496" key="GridCell.Tab.1.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850096" />
-    <state width="1103" height="496" key="GridCell.Tab.1.left" timestamp="1590536850095">
+    <state width="1103" height="496" key="GridCell.Tab.1.left" timestamp="1590599325663">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.1.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325663" />
     <state width="1103" height="496" key="GridCell.Tab.1.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850095" />
-    <state width="1103" height="496" key="GridCell.Tab.1.right" timestamp="1590536850097">
+    <state width="1103" height="496" key="GridCell.Tab.1.right" timestamp="1590599325663">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
+    <state width="1103" height="496" key="GridCell.Tab.1.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325663" />
     <state width="1103" height="496" key="GridCell.Tab.1.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850097" />
     <state x="382" y="72" key="SettingsEditor" timestamp="1590292683217">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
     <state x="382" y="72" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1590292683217" />
-    <state x="661" y="148" width="670" height="676" key="search.everywhere.popup" timestamp="1590269832357">
-      <screen x="0" y="23" width="1440" height="801" />
+    <state x="1579" y="244" width="1601" height="1196" key="search.everywhere.popup" timestamp="1590604044445">
+      <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="661" y="148" width="670" height="676" key="search.everywhere.popup/0.23.1440.801@0.23.1440.801" timestamp="1590269832357" />
+    <state x="1579" y="244" width="1601" height="1196" key="search.everywhere.popup/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590604044445" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
