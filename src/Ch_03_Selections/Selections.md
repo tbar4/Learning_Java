@@ -62,3 +62,10 @@ If the boolean-expression evaluates to true, the statements in the block are exe
 
 You can use `Math.random()` to obtain a random double value between 0.0 and 1.0, excluding 1.0.
 
+## Logical Operators
+
+The logical operators `!`, `&&`, `||`, and `^` can be used to create a compound Boolean expression.
+
+Sometimes, whether a statement is executed is determined by a combination of several conditions. You can use logical operators to combine these conditions to form a compound Boolean expression. Logical operators, also known as Boolean operators, operate on Boolean values to create a new Boolean value.
+
+The not (`!`) operator, which negates `true` to `false` and `false` to `true`. The and (`&&`) of two Boolean operands is `true` if and only if both operands are `true`. The or (`||`) of two Boolean operands is `true` if at least one of the operands is `true`. The exclusive or (^) of two Boolean operands is `true` if and only if the two operands have different Boolean values. Note that p1 ^ p2 is the same as p1 != p2.
