@@ -1,4 +1,5 @@
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.Properties;
 import java.util.Scanner;
 
@@ -31,9 +32,17 @@ public class SimpleJDBC {
             ResultSet resultSet = statement.executeQuery("SELECT * FROM aviation.metars LIMIT 100");
             ResultSetMetaData rsmd = resultSet.getMetaData();
             System.out.println(rsmd.getColumnName(1) + " | " + rsmd.getColumnName(2));
+
+            ArrayList<String> list = new ArrayList<>();
             while (resultSet.next()) {
+                    list.add(resultSet.getString("station_id"));
                     System.out.println(resultSet.getString("station_id") + "\t" + resultSet.getString("raw_text"));
             }
+
+            String[] stations = new String[list.size()];
+            list.toArray(stations);
+            for (String i : stations)
+                    System.out.println(i);
             connection.close();
     }
 }
