@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch_04_Mathematical_Functions_Characters_and_Strings/ComputeAngles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_04_Mathematical_Functions_Characters_and_Strings/GuessBirthday.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_04_Mathematical_Functions_Characters_and_Strings/Mathematical Functions, Characters, and Strings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_04_Mathematical_Functions_Characters_and_Strings/OrderTwoCities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/GuessNumberOneTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/Loops.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/RepeatAdditionQuiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/SentinelValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/SubtractionQuizLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CH_05_Loops/TestDoWhile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +55,13 @@
       <recent name="$PROJECT_DIR$/src/Ch_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessBirthday">
-    <configuration name="ChineseZodiac" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.ChineseZodiac" />
+  <component name="RunManager" selected="Application.MultiplicationTable">
+    <configuration name="GuessNumberOneTime" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH_05_Loops.GuessNumberOneTime" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_03_Selections.*" />
+          <option name="PATTERN" value="CH_05_Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ComputeAngles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_04_Mathematical_Functions_Characters_and_Strings.ComputeAngles" />
+    <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH_05_Loops.MultiplicationTable" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_04_Mathematical_Functions_Characters_and_Strings.*" />
+          <option name="PATTERN" value="CH_05_Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -79,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessBirthday" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_04_Mathematical_Functions_Characters_and_Strings.GuessBirthday" />
+    <configuration name="SentinelValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH_05_Loops.SentinelValue" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_04_Mathematical_Functions_Characters_and_Strings.*" />
+          <option name="PATTERN" value="CH_05_Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderTwoCities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_04_Mathematical_Functions_Characters_and_Strings.OrderTwoCities" />
+    <configuration name="SubtractionQuizLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH_05_Loops.SubtractionQuizLoop" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_04_Mathematical_Functions_Characters_and_Strings.*" />
+          <option name="PATTERN" value="CH_05_Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_03_Selections.Test" />
+    <configuration name="TestDoWhile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CH_05_Loops.TestDoWhile" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_03_Selections.*" />
+          <option name="PATTERN" value="CH_05_Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GuessBirthday" />
-        <item itemvalue="Application.OrderTwoCities" />
-        <item itemvalue="Application.ComputeAngles" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.ChineseZodiac" />
+        <item itemvalue="Application.MultiplicationTable" />
+        <item itemvalue="Application.TestDoWhile" />
+        <item itemvalue="Application.SentinelValue" />
+        <item itemvalue="Application.SubtractionQuizLoop" />
+        <item itemvalue="Application.GuessNumberOneTime" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +149,8 @@
       <workItem from="1590601988164" duration="3786000" />
       <workItem from="1590611189891" duration="980000" />
       <workItem from="1590612206307" duration="650000" />
-      <workItem from="1590612892229" duration="3972000" />
+      <workItem from="1590612892229" duration="5772000" />
+      <workItem from="1590684516434" duration="5149000" />
     </task>
     <servers />
   </component>
@@ -162,53 +166,53 @@
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state x="2359" y="536" key="#com.intellij.fileTypes.FileTypeChooser/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590611327108" />
-    <state width="1376" height="404" key="GridCell.Tab.0.bottom" timestamp="1590614997058">
+    <state width="1376" height="404" key="GridCell.Tab.0.bottom" timestamp="1590694906703">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.0.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325662" />
+    <state width="1376" height="404" key="GridCell.Tab.0.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725227" />
     <state width="878" height="211" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
     <state width="677" height="211" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590186370961" />
-    <state width="1376" height="404" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590614997058" />
-    <state width="1376" height="404" key="GridCell.Tab.0.center" timestamp="1590614997055">
+    <state width="1376" height="404" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590694906703" />
+    <state width="1376" height="404" key="GridCell.Tab.0.center" timestamp="1590694906703">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.0.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325662" />
+    <state width="1376" height="404" key="GridCell.Tab.0.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725226" />
     <state width="878" height="211" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
     <state width="677" height="211" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590186370960" />
-    <state width="1376" height="404" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590614997055" />
-    <state width="1376" height="404" key="GridCell.Tab.0.left" timestamp="1590614997053">
+    <state width="1376" height="404" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590694906703" />
+    <state width="1376" height="404" key="GridCell.Tab.0.left" timestamp="1590694906702">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.0.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325661" />
+    <state width="1376" height="404" key="GridCell.Tab.0.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725225" />
     <state width="878" height="211" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
     <state width="677" height="211" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590186370960" />
-    <state width="1376" height="404" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590614997053" />
-    <state width="1376" height="404" key="GridCell.Tab.0.right" timestamp="1590614997055">
+    <state width="1376" height="404" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590694906702" />
+    <state width="1376" height="404" key="GridCell.Tab.0.right" timestamp="1590694906703">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.0.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325662" />
+    <state width="1376" height="404" key="GridCell.Tab.0.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725226" />
     <state width="878" height="211" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
     <state width="677" height="211" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590186370961" />
-    <state width="1376" height="404" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590614997055" />
-    <state width="1103" height="496" key="GridCell.Tab.1.bottom" timestamp="1590599325664">
+    <state width="1376" height="404" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590694906703" />
+    <state width="1376" height="496" key="GridCell.Tab.1.bottom" timestamp="1590685689071">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.1.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325664" />
+    <state width="1376" height="496" key="GridCell.Tab.1.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689071" />
     <state width="1103" height="496" key="GridCell.Tab.1.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850097" />
-    <state width="1103" height="496" key="GridCell.Tab.1.center" timestamp="1590599325663">
+    <state width="1376" height="496" key="GridCell.Tab.1.center" timestamp="1590685689069">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.1.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325663" />
+    <state width="1376" height="496" key="GridCell.Tab.1.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689069" />
     <state width="1103" height="496" key="GridCell.Tab.1.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850096" />
-    <state width="1103" height="496" key="GridCell.Tab.1.left" timestamp="1590599325663">
+    <state width="1376" height="496" key="GridCell.Tab.1.left" timestamp="1590685689066">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.1.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325663" />
+    <state width="1376" height="496" key="GridCell.Tab.1.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689066" />
     <state width="1103" height="496" key="GridCell.Tab.1.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850095" />
-    <state width="1103" height="496" key="GridCell.Tab.1.right" timestamp="1590599325663">
+    <state width="1376" height="496" key="GridCell.Tab.1.right" timestamp="1590685689070">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state width="1103" height="496" key="GridCell.Tab.1.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590599325663" />
+    <state width="1376" height="496" key="GridCell.Tab.1.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689070" />
     <state width="1103" height="496" key="GridCell.Tab.1.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590536850097" />
     <state x="382" y="72" key="SettingsEditor" timestamp="1590292683217">
       <screen x="0" y="23" width="1440" height="801" />
