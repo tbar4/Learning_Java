@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch_06_Methods/GreatestCommonDivisorMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_06_Methods/Increment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_06_Methods/TestPassByValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/AnalyzeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/DeckOfCards.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/Single_Dimensional_Arrays.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch_06_Methods/Methods.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_06_Methods/Methods.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,16 +52,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays" />
+      <recent name="$PROJECT_DIR$/src/Single_Dimensional_Arrays" />
       <recent name="$PROJECT_DIR$/src/Ch_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GreatestCommonDivisorMethod">
-    <configuration name="GreatestCommonDivisorMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_06_Methods.GreatestCommonDivisorMethod" />
+  <component name="RunManager" selected="Application.DeckOfCards">
+    <configuration name="AnalyzeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_07_Single_Dimensional_Arrays.AnalyzeNumbers" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_06_Methods.*" />
+          <option name="PATTERN" value="Ch_07_Single_Dimensional_Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +71,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Increment" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_06_Methods.Increment" />
+    <configuration name="DeckOfCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_07_Single_Dimensional_Arrays.DeckOfCards" />
+      <module name="Learning_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Ch_07_Single_Dimensional_Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatestCommonDivisorMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_06_Methods.GreatestCommonDivisorMethod" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
@@ -95,39 +110,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestReturnGradedMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_06_Methods.TestReturnGradedMethod" />
-      <module name="Learning_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch_06_Methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVoidMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_06_Methods.TestVoidMethod" />
-      <module name="Learning_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Ch_06_Methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Scratch" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeckOfCards" />
+        <item itemvalue="Application.AnalyzeNumbers" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="Application.GreatestCommonDivisorMethod" />
         <item itemvalue="Application.TestPassByValue" />
-        <item itemvalue="Application.Increment" />
-        <item itemvalue="Application.TestReturnGradedMethod" />
-        <item itemvalue="Application.TestVoidMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +149,7 @@
       <workItem from="1590684516434" duration="10554000" />
       <workItem from="1590781040333" duration="5359000" />
       <workItem from="1591043798019" duration="368000" />
-      <workItem from="1591118682794" duration="2838000" />
+      <workItem from="1591118682794" duration="9628000" />
     </task>
     <servers />
   </component>
@@ -173,37 +169,37 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="809" y="379" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.877@0.23.1440.877" timestamp="1590783740226" />
-    <state width="1438" height="402" key="GridCell.Tab.0.bottom" timestamp="1591119913494">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1396" height="402" key="GridCell.Tab.0.bottom" timestamp="1591137892955">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725227" />
     <state width="878" height="211" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
-    <state width="676" height="225" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590802264413" />
-    <state width="1438" height="402" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591119913494" />
+    <state width="1396" height="402" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591137892955" />
+    <state width="1536" height="402" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591136362604" />
     <state width="1376" height="225" key="GridCell.Tab.0.bottom/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217232" />
-    <state width="1438" height="402" key="GridCell.Tab.0.center" timestamp="1591119913492">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1396" height="402" key="GridCell.Tab.0.center" timestamp="1591137892954">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725226" />
     <state width="878" height="211" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
-    <state width="676" height="225" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590802264412" />
-    <state width="1438" height="402" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591119913492" />
+    <state width="1396" height="402" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591137892954" />
+    <state width="1536" height="402" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591136362603" />
     <state width="1376" height="225" key="GridCell.Tab.0.center/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217231" />
-    <state width="1438" height="402" key="GridCell.Tab.0.left" timestamp="1591119913491">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1396" height="402" key="GridCell.Tab.0.left" timestamp="1591137892954">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725225" />
     <state width="878" height="211" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
-    <state width="676" height="225" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590802264412" />
-    <state width="1438" height="402" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591119913491" />
+    <state width="1396" height="402" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591137892954" />
+    <state width="1536" height="402" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591136362602" />
     <state width="1376" height="225" key="GridCell.Tab.0.left/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217230" />
-    <state width="1438" height="402" key="GridCell.Tab.0.right" timestamp="1591119913492">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state width="1396" height="402" key="GridCell.Tab.0.right" timestamp="1591137892955">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725226" />
     <state width="878" height="211" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
-    <state width="676" height="225" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590802264412" />
-    <state width="1438" height="402" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591119913492" />
+    <state width="1396" height="402" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591137892955" />
+    <state width="1536" height="402" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591136362603" />
     <state width="1376" height="225" key="GridCell.Tab.0.right/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217232" />
     <state width="1376" height="496" key="GridCell.Tab.1.bottom" timestamp="1590708041622">
       <screen x="0" y="23" width="3440" height="1417" />
