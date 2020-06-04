@@ -241,3 +241,7 @@ y[0] is 5555
 
 You may wonder why after m is invoked, x remains 1, but y[0] becomes 5555. This is because y and numbers, although they are independent variables, reference the same array. When m(x, y) is invoked,the values of x and y are passed to number and numbers. Since y contains the reference value to the array, numbers now contains the same reference value to the same array.
 
+--- Reference TestPassArray.java ---
+The two elements are not swapped using the swap method. However, they are swapped using the swapFirstTwoInArray method. Since the parameters in the swap method are primitive type, the values of a[0] and a[1] are passed to n1 and n2 inside the method when invoking swap(a[0], a[1]). The memory locations for n1 and n2 are independent of the ones for a[0] and a[1]. The contents of the array are not affected by this call.
+
+The parameter in the swapFirstTwoInArray method is an array. The reference of the array is passed to the method. Thus, the variables a (outside the method) and array (inside the method) both refer to the same array in the same memory location. Therefore, swapping array[0] with array[1] inside the method swapFirstTwoInArray is the same as swapping a[0] with a[1] outside of the method.
