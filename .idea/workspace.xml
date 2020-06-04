@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/AnalyzeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/DeckOfCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/Single_Dimensional_Arrays.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/Single_Dimensional_Arrays.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_07_Single_Dimensional_Arrays/Single_Dimensional_Arrays.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,6 +148,8 @@
       <workItem from="1590781040333" duration="5359000" />
       <workItem from="1591043798019" duration="368000" />
       <workItem from="1591118682794" duration="9628000" />
+      <workItem from="1591238233624" duration="138000" />
+      <workItem from="1591238440489" duration="1989000" />
     </task>
     <servers />
   </component>
@@ -157,6 +157,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="600" y="305" key="#Notifications" timestamp="1591238447219">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="600" y="305" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1591238447219" />
     <state x="369" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590273540350">
       <screen x="0" y="23" width="1440" height="801" />
     </state>
@@ -169,6 +173,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="809" y="379" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog/0.23.1440.877@0.23.1440.877" timestamp="1590783740226" />
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591238258221">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1591238258221" />
     <state width="1396" height="402" key="GridCell.Tab.0.bottom" timestamp="1591137892955">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -221,10 +229,11 @@
     </state>
     <state width="1376" height="496" key="GridCell.Tab.1.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689070" />
     <state width="1376" height="496" key="GridCell.Tab.1.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590708041621" />
-    <state x="913" y="110" key="SettingsEditor" timestamp="1590702685804">
-      <screen x="0" y="23" width="3440" height="1417" />
+    <state x="382" y="77" key="SettingsEditor" timestamp="1591238483874">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="382" y="72" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1590292683217" />
+    <state x="382" y="77" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591238483874" />
     <state x="913" y="110" key="SettingsEditor/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590702685804" />
     <state x="1579" y="244" width="1601" height="1196" key="search.everywhere.popup" timestamp="1590604044445">
       <screen x="0" y="23" width="3440" height="1417" />

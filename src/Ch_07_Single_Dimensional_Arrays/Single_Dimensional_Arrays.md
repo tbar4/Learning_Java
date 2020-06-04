@@ -153,3 +153,91 @@ You can read the code as “for each element e in myList, do the following.” N
 
 > `for (elementType element: arrayRefVar) { // Process the element
 }`
+
+## Copying Arrays
+
+To copy the contents of one array into another, you have to copy the array’s individ- ual elements into the other array.
+
+> `list1 = list2;`
+
+However, this statement does not copy the contents of the array referenced by list1 to list2, but instead merely copies the reference value from list1 to list2. After this statement, list1 and list2 reference the same array. The array previously referenced by list2 is no longer referenced; it becomes garbage, which will be automatically collected by the Java Virtual Machine. This process is called *garbage collection*.
+
+In Java, you can use assignment statements to copy primitive data type variables, but not arrays. Assigning one array variable to another array variable actually copies one reference to another and makes both variables point to the same memory location.
+
+There are three ways to copy arrays:
+
+1. Use a loop to copy individual elements one by one.
+2. Use the static `arraycopy` method in the `System` class.
+3. Use the `clone` method to copy arrays.
+
+You can write a loop to copy every element from the source array to the corresponding element in the target array. The following code, for instance, copies sourceArray to targetArray using a for loop:
+
+<pre><code>
+int[] sourceArray = {2, 3, 1, 5, 10};
+int[] targetArray = new int[sourceArray.length]; 
+for (int i = 0; i < sourceArray.length; i++) {
+       targetArray[i] = sourceArray[i];
+}
+</code></pre>
+
+Another approach is to use the arraycopy method in the java.lang.System class to copy arrays instead of using a loop. The syntax for arraycopy is:
+
+> `arraycopy(sourceArray, srcPos, targetArray, tarPos, length);`
+
+The parameters srcPos and tarPos indicate the starting positions in sourceArray and targetArray, respectively. The number of elements copied from sourceArray to targetArray is indicated by length. For example, you can rewrite the loop using the following statement:
+
+> `System.arraycopy(sourceArray, 0, targetArray, 0, sourceArray.length);`
+
+The arraycopy method does not allocate memory space for the target array. The target array must have already been created with its memory space allocated. After the copying takes place, targetArray and sourceArray have the same content but independent memory locations.
+
+## Passing Arrays to Methods
+
+When passing an array to a method, the reference of the array is passed to the method.
+
+Just as you can pass primitive type values to methods, you can also pass arrays to methods. For example, the following method displays the elements in an int array:
+
+<pre><code>
+public static void printArray(int[] array) {
+    for (int i = 0; i < array.length; i++) {
+        System.out.print(array[i] + " ");
+    }
+}
+</code></pre>
+
+You can invoke it by passing an array. For example, the following statement invokes the printArray method to display 3, 1, 2, 6, 4, and 2.
+
+> `printArray(new int[]{3, 1, 2, 6, 4});`
+
+Java uses *pass-by-value* to pass arguments to a method. There are important differences between passing the values of variables of primitive data types and passing arrays.
+
+* For an argument of a primitive type, the argument’s value is passed.
+* For an argument of an array type, the value of the argument is a reference to an array; this reference value is passed to the method. Semantically, it can be best described as *pass-by-sharing*, that is, the array in the method is the same as the array being passed. Thus, if you change the array in the method, you will see the change outside the method.
+
+<pre><code>
+public class TestArrayArguments {
+    public static void main(String[] args) {
+        int x = 1; // x represents an int value
+        int[] y = new int[10]; // y represents an array of int values
+        
+        m(x, y); // Invoke m with arguments x and y
+        
+        System.out.println("x is " + x);
+        System.out.println("y[0] is " + y[0]); 
+    }
+
+    public static void m(int number, int[] numbers) {
+        number = 1001; // Assign a new value to number 
+        numbers[0] = 5555; // Assign a new value to numbers[0]
+    } 
+}
+
+/**********************************
+************ OUTPUT ***************
+**********************************/
+
+x is 1
+y[0] is 5555
+</code></pre>
+
+You may wonder why after m is invoked, x remains 1, but y[0] becomes 5555. This is because y and numbers, although they are independent variables, reference the same array. When m(x, y) is invoked,the values of x and y are passed to number and numbers. Since y contains the reference value to the array, numbers now contains the same reference value to the same array.
+
