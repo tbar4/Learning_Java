@@ -245,3 +245,95 @@ You may wonder why after m is invoked, x remains 1, but y[0] becomes 5555. This 
 The two elements are not swapped using the swap method. However, they are swapped using the swapFirstTwoInArray method. Since the parameters in the swap method are primitive type, the values of a[0] and a[1] are passed to n1 and n2 inside the method when invoking swap(a[0], a[1]). The memory locations for n1 and n2 are independent of the ones for a[0] and a[1]. The contents of the array are not affected by this call.
 
 The parameter in the swapFirstTwoInArray method is an array. The reference of the array is passed to the method. Thus, the variables a (outside the method) and array (inside the method) both refer to the same array in the same memory location. Therefore, swapping array[0] with array[1] inside the method swapFirstTwoInArray is the same as swapping a[0] with a[1] outside of the method.
+
+## Returning an Array from a Method
+
+When a method returns an array, the reference of the array is returned.
+
+You can pass arrays when invoking a method. A method may also return an array. For example, the following method returns an array that is the reversal of another array.
+
+<pre><code>
+public static int[] reverse(int[] list) {
+    int[] result = new int[list.length];
+        for (int i = 0, j = result.length - 1; i < list.length; i++, j--) {
+            result[j] = list[i];
+        }
+    return result; 
+}
+</code></pre>
+
+The createArray method (lines 21–32) generates an array of 100 random lowercase letters. Line 5 invokes the method and assigns the array to chars. What would be wrong if you rewrote the code as follows?
+
+<pre><code>
+char[] chars = new char[100]; 
+chars = createArray();
+</code></pre>
+
+You would be creating two arrays. The first line would create an array by using new char[100]. The second line would create an array by invoking createArray() and assign the reference of the array to chars. The array created in the first line would be garbage because it is no longer referenced, and as mentioned earlier, Java automatically collects garbage behind the scenes. Your program would compile and run correctly, but it would create an array unnecessarily.
+
+## Variable-Length Argument Lists
+A variable number of arguments of the same type can be passed to a method and treated as an array.
+
+You can pass a variable number of arguments of the same type to a method. The parameter in the method is declared as follows:
+
+> typeName... parameterName
+
+In the method declaration, you specify the type followed by an ellipsis (...). Only one variable-length parameter may be specified in a method, and this parameter must be the last parameter. Any regular parameters must precede it.
+
+Java treats a variable-length parameter as an array. You can pass an array or a variable number of arguments to a variable-length parameter. When invoking a method with a variable number of arguments, Java creates an array and passes the arguments to it. 
+
+## Searching Arrays
+
+If an array is sorted, binary search is more efficient than linear search for finding an element in the array.
+
+*Searching* is the process of looking for a specific element in an array—for example, discover- ing whether a certain score is included in a list of scores. Searching is a common task in com- puter programming. Many algorithms and data structures are devoted to searching. This section discusses two commonly used approaches, *linear search* and *binary search*.
+
+### The Linear Search Approach
+
+The linear search approach compares the key element key sequentially with each element in the array. It continues to do so until the key matches an element in the array, or the array is exhausted without a match being found. If a match is made, the linear search returns the index of the element in the array that matches the key. If no match is found, the search returns −1.
+
+### The Binary Search Approach
+
+Binary search is the other common search approach for a list of values. For binary search to work, the elements in the array must already be ordered. Assume that the array is in ascending order. The binary search first compares the key with the element in the middle of the array. Consider the following three cases:
+
+1. If the key is less than the middle element, you need to continue to search for the key only in the first half of the array.
+2. If the key is equal to the middle element, the search ends with a match.
+3. If the key is greater than the middle element, you need to continue to search for the key only in the second half of the array.
+
+Clearly, the binary search method eliminates at least half of the array after each comparison. Sometimes you eliminate half of the elements, and sometimes you eliminate half plus one. Suppose the array has n elements. For convenience, let n be a power of 2. After the first com- parison, n/2 elements are left for further search; after the second comparison, (n/2)/2 ele- ments are left. After the kth comparison, n/2k elements are left for further search. When k = log2n, only one element is left in the array, and you need only one more comparison. There- fore, in the worst case when using the binary search approach, you need log2n+1 comparisons to find an element in the sorted array. In the worst case for a list of 1024 (210) elements, binary search requires only 11 comparisons, whereas a linear search requires 1023 comparisons in the worst case.
+
+The portion of the array being searched shrinks by half after each comparison. Let low and high denote, respectively, the first index and last index of the array that is currently being searched.Initially,lowis0andhighislist.length − 1.Letmiddenotetheindexofthe middle element, so mid is (low + high)/2. 
+
+## Sorting Arrays
+
+Sorting, like searching, is a common task in computer programming. Many different algorithms have been developed for sorting. This section introduces an intuitive sorting algorithm: selection sort.
+
+You know how the selection-sort approach works. The task now is to implement it in Java. Beginners find it difficult to develop a complete solution on the first attempt. Start by writing the code for the first iteration to find the smallest element in the list and swap it with the first element, then observe what would be different for the second iteration, the third, and so on. The insight this gives will enable you to write a loop that generalizes all the iterations.
+
+## The Arrays Class
+
+The `java.util.Arrays` class contains useful methods for common array operations such as sorting and searching.
+
+The `java.util.Arrays` class contains various static methods for sorting and searching arrays, comparing arrays, filling array elements, and returning a string representation of the array. These methods are overloaded for all primitive types.
+
+## Command-Line Arguments
+
+The main method can receive string arguments from the command line. 
+
+Perhaps you have already noticed the unusual header for the `main` method, which has the parameter `args` of the `String[]` type. It is clear that args is an array of strings. The main method is just like a regular method with a parameter. You can call a regular method by passing actual parameters. 
+
+A main method is just like a regular method. Furthermore, you can pass arguments to a main method from the command line.
+
+### Passing Strings to the main Method
+
+You can pass strings to a main method from the command line when you run the program. The following command line, for example, starts the program TestMain with three strings: arg0, arg1, and arg2:
+
+> `java TestMain arg0 arg1 arg2`
+
+arg0, arg1, and arg2 are strings, but they don’t have to appear in double quotes on the com- mand line. The strings are separated by a space. A string that contains a space must be enclosed in double quotes. Consider the following command line:
+
+> `java TestMain "First num" alpha 53`
+
+It starts the program with three strings: First num, alpha, and 53. Since First num is a string, it is enclosed in double quotes. Note 53 is actually treated as a string. You can use "53" instead of 53 in the command line.
+
+ When the main method is invoked, the Java interpreter creates an array to hold the com- mand-line arguments and pass the array reference to args. 
