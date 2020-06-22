@@ -157,3 +157,29 @@ for (int i = 0; i < matrix.length; i++) {
 When passing a two-dimensional array to a method, the reference of the array is passed to the method.
 
 You can pass a two-dimensional array to a method just as you pass a one-dimensional array. You can also return an array from a method. The first method, `getArray()`, returns a two-dimensional array and the second method, `sum(int[][] m)`, returns the sum of all the elements in a matrix.
+
+## Multidimensional Arrays
+
+A two-dimensional array is an array of one-dimensional arrays, and a three-dimen- sional array is an array of two-dimensional arrays.
+
+In the preceding section, you used a two-dimensional array to represent a matrix or a table. Occasionally, you will need to represent n-dimensional data structures. In Java, you can create n-dimensional arrays for any positive integer n.
+
+The way to declare two-dimensional array variables and create two-dimensional arrays can be generalized to declare n-dimensional array variables and create n-dimensional arrays for n 7 = 3. For example, you may use a three-dimensional array to store exam scores for a class of six students with five exams, and each exam has two parts (multiple-choice and essay type questions). The following syntax declares a three-dimensional array variable scores, creates an array, and assigns its reference to scores.
+
+> `double[][][] scores = new double[6][5][2];`
+
+You can also use the array initializer to create and initialize the array as follows:
+
+<pre><code>
+double[][][] scores = {
+{{7.5, 20.5}, {9.0, 22.5}, {15, 33.5}, {13, 21.5}, {15, 2.5}}, 
+{{4.5, 21.5}, {9.0, 22.5}, {15, 34.5}, {12, 20.5}, {14, 9.5}}, 
+{{6.5, 30.5}, {9.4, 10.5}, {11, 33.5}, {11, 23.5}, {10, 2.5}}, 
+{{6.5, 23.5}, {9.4, 32.5}, {13, 34.5}, {11, 20.5}, {16, 7.5}}, 
+{{8.5, 26.5}, {9.4, 52.5}, {13, 36.5}, {13, 24.5}, {16, 2.5}}, 
+{{9.5, 20.5}, {9.4, 42.5}, {13, 31.5}, {12, 20.5}, {16, 6.5}}};
+</code></pre>
+
+scores[0][1][0] refers to the multiple-choice score for the first student’s second exam, which is 9.0. scores[0][1][1] refers to the essay score for the first student’s second exam, which is 22.5. 
+
+A multidimensional array is actually an array in which each element is another array. A three- dimensional array is an array of two-dimensional arrays. A two-dimensional array is an array of one-dimensional arrays. For example, suppose that x = new int[2][2][5] and x[0] and x[1] are two-dimensional arrays. x[0][0], x[0][1], x[1][0], and x[1][1] are one- dimensional arrays and each contains five elements. x.length is 2, x[0].length and x[1]. length are 2, and x[0][0].length, x[0][1].length, x[1][0].length, and x[1][1]. length are 5.
