@@ -466,7 +466,7 @@ public class Circle {
 
 ### Using this to Reference Data Fields
 
-It is a good practice to use the data field as the parameter name in a setter method or a con- structor to make the code easy to read and to avoid creating unnecessary names. In this case, you need to use the this keyword to reference the data field in the setter method. For exam- ple, the setRadius method can be implemented as shown in (a). It would be wrong if it is implemented as shown in (b).
+It is a good practice to use the data field as the parameter name in a setter method or a constructor to make the code easy to read and to avoid creating unnecessary names. In this case, you need to use the this keyword to reference the data field in the setter method. For example, the setRadius method can be implemented as shown in (a). It would be wrong if it is implemented as shown in (b).
 
 a. 
 <pre><code>

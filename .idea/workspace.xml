@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa3dba1a-79ac-4324-9b4a-f54210b7e88f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/TestCircleWithStaticMembers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/TestPassObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/TestPoint2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/TotalArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_10_Object_Oriented_Thinking/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_10_Object_Oriented_Thinking/Object_Oriented_Thinking.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_10_Object_Oriented_Thinking/StackOfIntegers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_10_Object_Oriented_Thinking/TestCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_10_Object_Oriented_Thinking/TestLoanClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ch_10_Object_Oriented_Thinking/TestStackOfIntegers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/Objects_and_Classes.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/Objects_and_Classes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/TestCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ch_09_Objects_and_Classes/TestCircle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +62,13 @@
       <recent name="$PROJECT_DIR$/src/Ch_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TotalArea">
-    <configuration name="TestCircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_09_Objects_and_Classes.TestCircle" />
+  <component name="RunManager" selected="Application.TestStackOfIntegers">
+    <configuration name="TestCourse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_10_Object_Oriented_Thinking.TestCourse" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_09_Objects_and_Classes.*" />
+          <option name="PATTERN" value="Ch_10_Object_Oriented_Thinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCircleWithStaticMembers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_09_Objects_and_Classes.TestCircleWithStaticMembers" />
+    <configuration name="TestLoanClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_10_Object_Oriented_Thinking.TestLoanClass" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_09_Objects_and_Classes.*" />
+          <option name="PATTERN" value="Ch_10_Object_Oriented_Thinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPoint2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Ch_09_Objects_and_Classes.TestPoint2D" />
+    <configuration name="TestStackOfIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Ch_10_Object_Oriented_Thinking.TestStackOfIntegers" />
       <module name="Learning_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Ch_09_Objects_and_Classes.*" />
+          <option name="PATTERN" value="Ch_10_Object_Oriented_Thinking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestStackOfIntegers" />
+        <item itemvalue="Application.TestCourse" />
+        <item itemvalue="Application.TestLoanClass" />
         <item itemvalue="Application.TotalArea" />
         <item itemvalue="Application.TestPassObject" />
-        <item itemvalue="Application.TestCircle" />
-        <item itemvalue="Application.TestCircleWithStaticMembers" />
-        <item itemvalue="Application.TestPoint2D" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +169,9 @@
       <workItem from="1592845449385" duration="11174000" />
       <workItem from="1592865238194" duration="1183000" />
       <workItem from="1593026582451" duration="7657000" />
+      <workItem from="1593103965722" duration="30000" />
+      <workItem from="1593104028698" duration="599000" />
+      <workItem from="1593191092536" duration="13412000" />
     </task>
     <servers />
   </component>
@@ -184,10 +188,10 @@
     </state>
     <state x="369" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.801@0.23.1440.801" timestamp="1590273540350" />
     <state x="882" y="131" key="#com.intellij.execution.impl.EditConfigurationsDialog/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591320061466" />
-    <state x="2359" y="536" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590611327108">
+    <state x="2359" y="536" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593191225446">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
-    <state x="2359" y="536" key="#com.intellij.fileTypes.FileTypeChooser/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590611327108" />
+    <state x="2359" y="536" key="#com.intellij.fileTypes.FileTypeChooser/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593191225446" />
     <state x="809" y="379" key="#com.intellij.framework.addSupport.AddSupportForSingleFrameworkDialog" timestamp="1590783740226">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -200,68 +204,76 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="408" y="204" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1591238258221" />
-    <state width="1619" height="692" key="GridCell.Tab.0.bottom" timestamp="1593044482723">
+    <state width="1619" height="489" key="GridCell.Tab.0.bottom" timestamp="1593207677148">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725227" />
     <state width="832" height="426" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592247624814" />
     <state width="878" height="211" key="GridCell.Tab.0.bottom/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
     <state width="1396" height="402" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1591137892955" />
-    <state width="1619" height="692" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593044482723" />
+    <state width="1619" height="489" key="GridCell.Tab.0.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677148" />
     <state width="1376" height="225" key="GridCell.Tab.0.bottom/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217232" />
-    <state width="1619" height="692" key="GridCell.Tab.0.center" timestamp="1593044482722">
+    <state width="1619" height="489" key="GridCell.Tab.0.center" timestamp="1593207677148">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725226" />
     <state width="832" height="426" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592247624814" />
     <state width="878" height="211" key="GridCell.Tab.0.center/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
     <state width="1396" height="402" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1591137892954" />
-    <state width="1619" height="692" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593044482722" />
+    <state width="1619" height="489" key="GridCell.Tab.0.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677148" />
     <state width="1376" height="225" key="GridCell.Tab.0.center/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217231" />
-    <state width="1619" height="692" key="GridCell.Tab.0.left" timestamp="1593044482721">
+    <state width="1619" height="489" key="GridCell.Tab.0.left" timestamp="1593207677148">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725225" />
     <state width="832" height="426" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592247624813" />
     <state width="878" height="211" key="GridCell.Tab.0.left/0.23.1440.801@0.23.1440.801" timestamp="1590427362082" />
     <state width="1396" height="402" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1591137892954" />
-    <state width="1619" height="692" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593044482721" />
+    <state width="1619" height="489" key="GridCell.Tab.0.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677148" />
     <state width="1376" height="225" key="GridCell.Tab.0.left/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217230" />
-    <state width="1619" height="692" key="GridCell.Tab.0.right" timestamp="1593044482723">
+    <state width="1619" height="489" key="GridCell.Tab.0.right" timestamp="1593207677148">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="404" key="GridCell.Tab.0.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685725226" />
     <state width="832" height="426" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592247624814" />
     <state width="878" height="211" key="GridCell.Tab.0.right/0.23.1440.801@0.23.1440.801" timestamp="1590427362083" />
     <state width="1396" height="402" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1591137892955" />
-    <state width="1619" height="692" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593044482723" />
+    <state width="1619" height="489" key="GridCell.Tab.0.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677148" />
     <state width="1376" height="225" key="GridCell.Tab.0.right/3440.971.1440.877/0.23.3440.1417@0.23.3440.1417" timestamp="1590786217232" />
-    <state width="1411" height="496" key="GridCell.Tab.1.bottom" timestamp="1591320729314">
+    <state width="1619" height="489" key="GridCell.Tab.1.bottom" timestamp="1593207677149">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="496" key="GridCell.Tab.1.bottom/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689071" />
-    <state width="1411" height="496" key="GridCell.Tab.1.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591320729314" />
-    <state width="1411" height="496" key="GridCell.Tab.1.center" timestamp="1591320729313">
+    <state width="1619" height="489" key="GridCell.Tab.1.bottom/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677149" />
+    <state width="1619" height="489" key="GridCell.Tab.1.center" timestamp="1593207677149">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="496" key="GridCell.Tab.1.center/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689069" />
-    <state width="1411" height="496" key="GridCell.Tab.1.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591320729313" />
-    <state width="1411" height="496" key="GridCell.Tab.1.left" timestamp="1591320729313">
+    <state width="1619" height="489" key="GridCell.Tab.1.center/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677149" />
+    <state width="1619" height="489" key="GridCell.Tab.1.left" timestamp="1593207677149">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="496" key="GridCell.Tab.1.left/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689066" />
-    <state width="1411" height="496" key="GridCell.Tab.1.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591320729312" />
-    <state width="1411" height="496" key="GridCell.Tab.1.right" timestamp="1591320729313">
+    <state width="1619" height="489" key="GridCell.Tab.1.left/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677149" />
+    <state width="1619" height="489" key="GridCell.Tab.1.right" timestamp="1593207677149">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
     <state width="1376" height="496" key="GridCell.Tab.1.right/-1440.563.1440.877/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590685689070" />
-    <state width="1411" height="496" key="GridCell.Tab.1.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1591320729313" />
+    <state width="1619" height="489" key="GridCell.Tab.1.right/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593207677149" />
     <state x="382" y="77" key="SettingsEditor" timestamp="1591238483874">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="382" y="72" key="SettingsEditor/0.23.1440.801@0.23.1440.801" timestamp="1590292683217" />
     <state x="382" y="77" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1591238483874" />
     <state x="913" y="110" key="SettingsEditor/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1590702685804" />
+    <state x="2319" y="669" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593205562332">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2319" y="669" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593205562332" />
+    <state x="2666" y="353" width="586" height="870" key="find.popup" timestamp="1593196519339">
+      <screen x="0" y="23" width="3440" height="1417" />
+    </state>
+    <state x="2666" y="353" width="586" height="870" key="find.popup/3440.23.2560.1417/0.23.3440.1417@0.23.3440.1417" timestamp="1593196519339" />
     <state x="2260" y="342" key="run.anything.popup" timestamp="1593035266198">
       <screen x="0" y="23" width="3440" height="1417" />
     </state>
